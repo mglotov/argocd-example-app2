@@ -7,7 +7,7 @@ import (
 
 func hello(w http.ResponseWriter, req *http.Request) {
 
-    fmt.Fprintf(w, "hello app2\n")
+    fmt.Fprintf(w, "hello app2 rev.2\n")
 }
 
 func headers(w http.ResponseWriter, req *http.Request) {
